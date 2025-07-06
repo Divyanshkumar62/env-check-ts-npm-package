@@ -1,0 +1,41 @@
+{
+  "name": "env-check-ts",
+  "version": "1.0.3",
+  "description": "CLI tool to validate .env files and generate .env.example using schema defined with Zod in TypeScript.",
+  "main": "dist/index.js",
+  "bin": {
+    "env-check-ts": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts",
+    "build": "tsup"
+  },
+  "keywords": [
+    "env",
+    "typescript",
+    "cli",
+    "dotenv",
+    "validate",
+    "zod",
+    "schema",
+    "env-example",
+    "environment-variables"
+  ],
+  "author": "Divyansh Kumar",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "dotenv": "^17.0.1",
+    "env-check-ts": "^1.0.3",
+    "zod": "^3.25.74"
+  }
+}
